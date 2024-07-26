@@ -1,4 +1,4 @@
-# Scanning-Documents-with-Perspective-Transformation-using-Python-OpenCV
+# Scanning Documents with Perspective Transformation using Python OpenCV
 
 • Preprocessed images by resizing, converting to grayscale, and applying Gaussian blur.
 
