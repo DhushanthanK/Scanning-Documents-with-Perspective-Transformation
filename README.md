@@ -17,7 +17,12 @@ This project demonstrates how to preprocess, detect edges, and perform perspecti
    - Reordered the contour points to align them correctly.
    - Applied perspective transformation to obtain a top-down view of the document.
 
-4. **Post-Processing**:
+4. **Text Recognition**:
+   - Utilized `easyocr` to detect and extract text from the perspective-transformed document image.
+   - Highlighted and annotated the detected text on the image.
+   - Printed the extracted text line by line in the terminal.
+
+5. **Post-Processing**:
    - Converted the perspective-transformed image to grayscale.
    - Applied Gaussian blur to the transformed image to enhance visual clarity.
    - Displayed the results for review.
@@ -27,6 +32,7 @@ This project demonstrates how to preprocess, detect edges, and perform perspecti
 - **OpenCV**: For image processing tasks including resizing, blurring, edge detection, and perspective transformation.
 - **NumPy**: For numerical operations and handling arrays.
 - **Matplotlib**: For visualizing images and results.
+- **easyocr**: For text recognition in the document image.
 - **Jupyter Notebook**: For interactive development and documentation.
 
 ## How to Run
@@ -35,6 +41,4 @@ This project demonstrates how to preprocess, detect edges, and perform perspecti
    Make sure you have the required Python packages installed. You can install them using pip:
 
    ```bash
-   pip install numpy matplotlib opencv-python
-
-
+   pip install numpy matplotlib opencv-python easyocr
